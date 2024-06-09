@@ -16,6 +16,7 @@ Features
 * There are various time management tips made available on the page which will help to improve focus and retain information for longer durations.
 * The Pomodoro Timer schedules the time sessions by 25 minutes of work and 5 minutes of break for basic sessions. The duration of the session can be altered by individuals as per requirement.
 * ...
+  
 #[Tech Stack]
 
 * FRONT-END :- The front-end of website is developed using html and css as the html provides the basic framework for the website and the css is used to enhance the appearance of website
