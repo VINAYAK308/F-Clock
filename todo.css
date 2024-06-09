@@ -1,0 +1,63 @@
+body {
+    font-family:Lexend,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    background: linear-gradient(to bottom,#fffce0 , #fed6e3);
+    text-align: center; /* Center align everything */
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    width: 400px;
+    background-color: white ;
+    border-radius: 30px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: #333; /* Dark gray text color */
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    text-decoration: none;
+    background-color:bisque;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-left: 240px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* Align lists horizontally */
+    vertical-align: top; /* Align lists vertically at the top */
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Center task text and tick button vertically */
+    justify-content: space-between; /* Space out task text and tick button */
+}
+
+#completedTasks {
+    margin-top: 20px; /* Add some margin between ongoing and completed tasks */
+}
